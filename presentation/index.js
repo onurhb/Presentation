@@ -83,10 +83,6 @@ export default class Presentation extends React.Component {
           <Image style={{border: '3px solid #A0D1CA'}} src="https://raw.githubusercontent.com/AlanFoster/react-native-presentation/master/assets/hot-reload.gif" />
         </Slide>
 
-        <Slide transition={["zoom"]} bgColor="secondary" textColor="primary">
-          <Heading size={1} caps>Ytelse?</Heading>
-        </Slide>
-
         <Slide transition={["slide"]} bgColor="primary" textColor="tertiary">
           <Heading size={4} textColor="secondary" caps>Hvordan funker React Native?</Heading>
           <Image width="1100px" style={{border: '3px solid #A0D1CA'}} src={images.diagram} />
